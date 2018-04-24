@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+    <Commerce>
+      <Stripe>
+        <PaymentNotSpecified>Payment information is not specified.</PaymentNotSpecified>
+        <UnsupportedPaymentType>The current payment method does not support order type.</UnsupportedPaymentType>
+        <RefundError>Nothing to refund.</RefundError>
+        <approve_with_id>The payment cannot be authorized.</approve_with_id>
+        <call_issuer>The card has been declined for an unknown reason.</call_issuer>
+        <card_not_supported>The card does not support this type of purchase.</card_not_supported>
+        <card_velocity_exceeded>The customer has exceeded the balance or credit limit available on their card.</card_velocity_exceeded>
+        <currency_not_supported>The card does not support the specified currency.</currency_not_supported>
+        <do_not_honor>The card has been declined for an unknown reason.</do_not_honor>
+        <do_not_try_again>The card has been declined for an unknown reason.</do_not_try_again>
+        <duplicate_transaction>A transaction with identical amount and credit card information was submitted very recently.</duplicate_transaction>
+        <expired_card>The card has expired.</expired_card>
+        <fradulent>The payment has been declined as Stripe suspects it is fraudulent.	Do not report more detailed information to your customer. Instead, present as </fradulent>
+        <generic_decline>The card has been declined for an unknown reason.</generic_decline>
+        <incorrect_number>The card number is incorrect.</incorrect_number>
+        <incorrect_cvc>The CVC number is incorrect.</incorrect_cvc>
+        <incorrect_pin>The PIN entered is incorrect.</incorrect_pin>
+        <incorrect_zip>The ZIP/postal code is incorrect.</incorrect_zip>
+        <insufficient_funds>The card has insufficient funds to complete the purchase.</insufficient_funds>
+        <invalid_account>The card, or account the card is connected to, is invalid.</invalid_account>
+        <invalid_amount>The payment amount is invalid, or exceeds the amount that is allowed.</invalid_amount>
+        <invalid_cvc>The CVC number is incorrect.</invalid_cvc>
+        <invalid_expiry_year>The expiration year invalid.</invalid_expiry_year>
+        <invalid_number>The card number is incorrect.</invalid_number>
+        <invalid_pin>The PIN entered is incorrect. </invalid_pin>
+        <issuer_not_available>The card issuer could not be reached, so the payment could not be authorized.</issuer_not_available>
+        <lost_card>The payment has been declined because the card is reported lost.</lost_card>
+        <new_account_information_available>The card, or account the card is connected to, is invalid.</new_account_information_available>
+        <no_action_taken>The card has been declined for an unknown reason.</no_action_taken>
+        <not_permitted>The payment is not permitted.</not_permitted>
+        <pickup_card>The card cannot be used to make this payment (it is possible it has been reported lost or stolen)</pickup_card>
+        <pin_try_exceeded>The allowable number of PIN tries has been exceeded.</pin_try_exceeded>
+        <processing_error>An error occurred while processing the card.</processing_error>
+        <reenter_transaction>The payment could not be processed by the issuer for an unknown reason.</reenter_transaction>
+        <restricted_card>The card cannot be used to make this payment (it is possible it has been reported lost or stolen).</restricted_card>
+        <revocation_of_all_authorizations>The card has been declined for an unknown reason.</revocation_of_all_authorizations>
+        <revocation_of_authorization>The card has been declined for an unknown reason.</revocation_of_authorization>
+        <security_violation>The card has been declined for an unknown reason.</security_violation>
+        <service_not_allowed>The card has been declined for an unknown reason.</service_not_allowed>
+        <stolen_card>The payment has been declined because the card is reported stolen.</stolen_card>
+        <stop_payment_order>The card has been declined for an unknown reason.</stop_payment_order>
+        <testmode_decline>A Stripe test card number was used.</testmode_decline>
+        <transaction_not_allowed>The card has been declined for an unknown reason.</transaction_not_allowed>
+        <try_again_later>The card has been declined for an unknown reason.</try_again_later>
+        <withdrawal_count_limit_exceeded>The customer has exceeded the balance or credit limit available on their card.</withdrawal_count_limit_exceeded>
+      </Stripe>
+    </Commerce>
+  </language>
+</languages>

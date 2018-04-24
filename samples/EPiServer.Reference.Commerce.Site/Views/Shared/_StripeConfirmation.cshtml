@@ -1,0 +1,11 @@
+﻿@model EPiServer.Commerce.Order.ICreditCardPayment
+
+<div class="quicksilver-well">
+    <h4>@Html.Translate("/OrderConfirmation/PaymentDetails")</h4>
+    <p>
+        @Html.Translate("/OrderConfirmation/PaymentInfo/CardType"): @Model.CardType<br>
+        @Html.Translate("/OrderConfirmation/PaymentInfo/Owner"): @Model.CustomerName<br>
+        @Html.Translate("/OrderConfirmation/PaymentInfo/CardNumber"): ************@(Model.Properties["stripe_LastFour"] ?? "")<br>
+        @Html.Translate("/OrderConfirmation/PaymentInfo/ExpirationDate"): @Model.ExpirationMonth/@Model.ExpirationYear<br>
+    </p>
+</div>

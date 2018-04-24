@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Commerce.Payment.Stripe", "src\EPiServer.Commerce.Payment.Stripe\EPiServer.Commerce.Payment.Stripe.csproj", "{6635E93F-BB53-4456-9BD2-1E913198803B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Reference.Commerce.Manager", "samples\EPiServer.Reference.Commerce.Manager\EPiServer.Reference.Commerce.Manager.csproj", "{3DD52DD7-4744-42D1-AE9F-34D441C020B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Reference.Commerce.Site", "samples\EPiServer.Reference.Commerce.Site\EPiServer.Reference.Commerce.Site.csproj", "{9AC1DC21-C56D-49EB-A264-9441D8602F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Reference.Commerce.Shared", "samples\EPiServer.Reference.Commerce.Shared\EPiServer.Reference.Commerce.Shared.csproj", "{341C8E14-4EAE-4946-9841-45F9818265A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{610B6F21-B062-44F6-80B1-BD48BDBF7769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CA|Any CPU = CA|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.CA|Any CPU.ActiveCfg = Release|Any CPU
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.CA|Any CPU.Build.0 = Release|Any CPU
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6635E93F-BB53-4456-9BD2-1E913198803B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.CA|Any CPU.ActiveCfg = CA|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.CA|Any CPU.Build.0 = CA|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.CA|Any CPU.ActiveCfg = CA|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.CA|Any CPU.Build.0 = CA|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.CA|Any CPU.ActiveCfg = CA|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.CA|Any CPU.Build.0 = CA|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341C8E14-4EAE-4946-9841-45F9818265A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DD52DD7-4744-42D1-AE9F-34D441C020B8} = {610B6F21-B062-44F6-80B1-BD48BDBF7769}
+		{9AC1DC21-C56D-49EB-A264-9441D8602F1A} = {610B6F21-B062-44F6-80B1-BD48BDBF7769}
+		{341C8E14-4EAE-4946-9841-45F9818265A8} = {610B6F21-B062-44F6-80B1-BD48BDBF7769}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC6AB61-159C-40CE-8F05-BBA788C56957}
+	EndGlobalSection
+EndGlobal

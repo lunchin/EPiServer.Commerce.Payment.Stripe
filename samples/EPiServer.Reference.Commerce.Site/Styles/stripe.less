@@ -1,0 +1,170 @@
+﻿.stripePayment {
+    background-color: #6772e5;
+}
+
+.stripePayment * {
+    font-family: Roboto, Open Sans, Segoe UI, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.stripePayment fieldset {
+    margin: 0 15px 20px;
+    padding: 0;
+    border-style: none;
+    background-color: #7795f8;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+    border-radius: 4px;
+}
+
+.stripePayment .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.stripePayment .row + .row {
+    border-top: 1px solid #819efc;
+}
+
+.stripePayment label {
+    width: 15%;
+    min-width: 70px;
+    padding: 11px 0;
+    color: #c4f0ff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stripePayment input, .stripePayment button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-style: none;
+}
+
+.stripePayment input:-webkit-autofill {
+    -webkit-text-fill-color: #fce883;
+    transition: background-color 100000000s;
+    -webkit-animation: 1ms void-animation-out;
+}
+
+.stripePayment .StripeElement--webkit-autofill {
+    background: transparent !important;
+}
+
+.stripePayment .StripeElement {
+    width: 100%;
+    padding: 11px 15px 11px 0;
+}
+
+.stripePayment input {
+    width: 100%;
+    padding: 11px 15px 11px 0;
+    color: #fff;
+    background-color: transparent;
+    -webkit-animation: 1ms void-animation-out;
+}
+
+.stripePayment input::-webkit-input-placeholder {
+    color: #87bbfd;
+}
+
+.stripePayment input::-moz-placeholder {
+    color: #87bbfd;
+}
+
+.stripePayment input:-ms-input-placeholder {
+    color: #87bbfd;
+}
+
+.stripePayment button {
+    display: block;
+    width: calc(100% - 30px);
+    height: 40px;
+    margin: 40px 15px 0;
+    background-color: #f6a4eb;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.stripePayment button:active {
+    background-color: #d782d9;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+}
+
+.stripePayment .error svg .base {
+    fill: #fff;
+}
+
+.stripePayment .error svg .glyph {
+    fill: #6772e5;
+}
+
+.stripePayment .error .message {
+    color: #fff;
+}
+
+.stripePayment .success .icon .border {
+    stroke: #87bbfd;
+}
+
+.stripePayment .success .icon .checkmark {
+    stroke: #fff;
+}
+
+.stripePayment .success .title {
+    color: #fff;
+}
+
+.stripePayment .success .message {
+    color: #9cdbff;
+}
+
+.stripePayment .success .reset path {
+    fill: #fff;
+}
+
+.stripePayment .error {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    top: 100%;
+    margin-top: 20px;
+    left: 0;
+    padding: 0 15px;
+    font-size: 13px !important;
+    opacity: 0;
+    transform: translateY(10px);
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.stripePayment .error.visible {
+    opacity: 1;
+    transform: none;
+}
+.stripePayment .error .message {
+    font-size: inherit;
+}
+
+.stripePayment .error svg {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: -1px;
+    margin-right: 10px;
+}
+
+.stripePayment form {
+    position:relative;
+}
